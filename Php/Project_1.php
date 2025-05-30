@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        .body-1 {background-color: gold;}
+        .body-2 {background-color: greenyellow;}
+        .body-3 {background-color: pink;}
+        .body-4 {background-color: blanchedalmond;}
+        .body-5 {background-color: orange;}
+        .body-6 {background-color: plum;}
+        
+    </style>
 </head>
-<body>
-    <h1> Hello, This is first Code on Php</h1>
-    <h1> <?php echo "We will build projects"; ?></h1>
-    <h1> Generate Random No: <?php echo rand(1,10); ?></h1>
+<body class="body- <?php echo rand (1,6); ?>">
+   
+    <?php echo '<h1> Hello From Php</h1>'; ?>
 </body>
 </html>
