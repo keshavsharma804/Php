@@ -1,3 +1,5 @@
+<!-- The Basics of Text Generation with PHP: Create dynamic background colors -->
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
